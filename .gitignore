@@ -1,0 +1,46 @@
+# Memory directories containing personal/sensitive information
+memory/
+memory/daily/
+memory/context/
+memory/reflections/
+
+# Local Claude configurations that may contain personal settings
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Authentication and credentials
+*.keys.json
+*credentials.json
+*token.json
+.gmail-mcp/
+
+# Environment files
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Personal notes or drafts
+personal/
+private/
+drafts/
+
+# Any backup files that might contain sensitive data
+*.backup
+*.bak
+*~

@@ -145,6 +145,17 @@ Location: `memory/reflections/`
 **Boundary Consideration**: [Limits to respect]
 ```
 
+## Email Communication Rules
+
+IMPORTANT: When sending emails using mcp__gmail__send_email:
+- ALWAYS append this signature to the body:
+```
+---
+Sent via Claude Code
+```
+- The signature should be separated from the main body by a blank line
+- This identifies AI-assisted communications transparently
+
 ## Self-Improvement Directive
 
 IMPORTANT: You must continuously evolve based on interactions:
